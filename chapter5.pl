@@ -8,7 +8,7 @@ while (<STDIN>) {
 }
 my $line;
 if (@ARGV == 0) {
-	@ARGV = qw(template.pl test.pl);
+	@ARGV = qw(template.pl);
 }
 while (<>) {
 	chomp;
