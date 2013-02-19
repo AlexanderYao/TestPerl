@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+above_average	chapter4.pl	/^sub above_average{$/;"	s
+average	chapter4.pl	/^sub average{$/;"	s
+from_large_to_small	chapter4.pl	/^sub from_large_to_small{$/;"	s
+greet	chapter4.pl	/^sub greet{$/;"	s
+marine	chapter3.pl	/^sub marine {$/;"	s
+marine	chapter4.pl	/^sub marine{$/;"	s
+max	chapter4.pl	/^sub max {$/;"	s
+total	chapter4.pl	/^sub total{$/;"	s
+which_element_is	chapter4.pl	/^sub which_element_is {$/;"	s

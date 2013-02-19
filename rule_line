@@ -1,0 +1,18 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+
+chomp(my @input = <STDIN>);
+say "Please input a number to be align:";
+chomp(my $align = <STDIN>);
+
+my $length=$align/10;
+my @rules;
+for (my $i=0;$i<$length;$i++) {
+	push @rules, "1234567890";
+}
+say @rules;
+my $format = ("%".$align."s\n") x @input;
+#say $format;
+printf $format, @input;
