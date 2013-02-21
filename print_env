@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-require "chapter4.pl";
+require "max";
 use strict;
 use warnings;
 use 5.010;
@@ -9,4 +9,7 @@ foreach (sort keys %ENV) {
     push @keys, length($_);
 }
 my $len = &max(@keys);
-say $len;
+my $format = "%$len"."s => %s\n";
+foreach my $key (sort keys %ENV){
+    printf $format, $key, $ENV{$key};
+}

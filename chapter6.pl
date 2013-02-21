@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+require "max";
 use strict;
 use warnings;
 use 5.010;
@@ -29,7 +30,3 @@ sub print_hash {
         say "$key => $hash{$key}";
     }
 }
-
-#foreach my $key (sort keys %ENV){
-#    say "$key => $ENV{$key}";
-#}

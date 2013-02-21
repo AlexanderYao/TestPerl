@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+
+# 获取输入列表
+sub max {
+	my($max_so_far) = shift @_;
+	foreach (@_) {
+		if ($_ > $max_so_far) {
+			$max_so_far = $_;
+		}
+	}
+	$max_so_far;
+}
+1;
