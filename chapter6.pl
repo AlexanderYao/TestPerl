@@ -5,10 +5,10 @@ use warnings;
 use 5.010;
 
 my %hash = (
-    "alex" => 1,
-    "bash" => 2,
-    "clear" => 3,
-    "dir" => 4,
+    alex => 1,
+    bash => 2,
+    clear => 3,
+    dir => 4,
 );
 &print_hash(%hash);
 chomp(my $name = <STDIN>);
