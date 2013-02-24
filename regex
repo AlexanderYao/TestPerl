@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+
+while (<>) {
+	chomp;
+	if (/\bsearch\B/) {
+		say "Matched: |$`<$&>$'|";
+	} else {
+		say "No match: |$_|";
+	}
+}
