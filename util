@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use 5.010;
+
+sub print_hash {
+    my(%hash) = @_;
+#while(my ($key, $value)=each %hash){
+#        say "$key => $value";
+#    }
+    foreach my $key (sort keys %hash) {
+        say "$key => $hash{$key}";
+    }
+}
+1;
